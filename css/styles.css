@@ -1,0 +1,71 @@
+
+
+/* основной цвет черный  #212121 */
+/* текст серый #757575 */
+/* белый #FFFFFF */
+/* синий #2196F3 */
+/* основной фон #E5E5E5 */
+/* фон синий заказать услугу shadow 15% rgba(0, 0, 0, 0.15)*/
+/* фон наша команда серый #F5F4FA */
+/* портфолио фильтр фон синий с прозрачностью rgba(0, 0, 0, 0.08) */
+/* портфолио фильтр фон серый  #F5F4FA */
+
+body {
+    color: #212121;
+    background-color:#FFFFFF ;
+}
+ul {
+    list-style: none;
+}
+/* Логотип */
+.logoweb {
+    color:#2196F3 ;
+}
+.logostudio {
+    color: #212121;
+}
+
+/* Стилизация NAV */
+.site-nav a {
+color: #212121;
+}
+.auth-nav a {
+    color: #212121;
+}
+/* Футер */
+.address-footer a {
+    color: #212121;
+}
+/* Index.HTML !!!!! - исправить на белый после фона*/
+.hero {
+    color: #2196F3;
+}
+.our-priorities {
+    color: #212121;
+}
+.priorities-text {
+    color: #757575;
+}
+.What-we-do {
+    color: #212121;
+}
+.our-team {
+    color: #212121;
+}
+.team-name {
+    color: #212121;
+}
+.team-expert {
+    color: #757575;
+}
+
+/* Портфолио */
+.project-name {
+    color: #212121;
+}
+.filter-name {
+    color: #757575;
+}
+.element-filter {
+    
+}
