@@ -9,10 +9,15 @@
 /* фон наша команда серый #F5F4FA */
 /* портфолио фильтр фон синий с прозрачностью rgba(0, 0, 0, 0.08) */
 /* портфолио фильтр фон серый  #F5F4FA */
+/* Футер фон #2F303A */
+/* белый 60% футер rgba(255, 255, 255, 0.6) */
 
 body {
     color: #212121;
     background-color:#FFFFFF ;
+    font-family: 'Raleway';
+    font-family: 'Roboto';
+    
 }
 ul {
     list-style: none;
@@ -20,52 +25,157 @@ ul {
 /* Логотип */
 .logoweb {
     color:#2196F3 ;
+    font-family:'Raleway';  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 .logostudio {
     color: #212121;
-}
+    font-family:'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    }
+
+
+.logostudiofooter {
+    color: #FFFFFF ;
+    font-family:'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    }
+
 
 /* Стилизация NAV */
 .site-nav a {
-color: #212121;
-}
-.auth-nav a {
     color: #212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+}
+.site-nav a:hover {
+    color: #2196F3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+}
+
+.auth-nav a {
+    color: #212121 ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+}
+.auth-nav a:hover {
+    color: #2196F3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
 }
 /* Футер */
-.address-footer a {
-    color: #212121;
+.footer {
+    background-color: #2F303A;
 }
+.address-footer a {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.address-footer a:hover {
+    color: #2196F3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
 /* Index.HTML !!!!! - исправить на белый после фона*/
 .hero {
-    color: #2196F3;
+    color: #FFFFFF;
+    background-color: #2F303A;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
 }
 .our-priorities {
     color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
 }
 .priorities-text {
     color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 .What-we-do {
     color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
 }
 .our-team {
     color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
 }
 .team-name {
     color: #212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 .team-expert {
     color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 /* Портфолио */
+.filter {
+
+}
+.filter-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.element-filter {
+
+}
 .project-name {
     color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
 }
 .filter-name {
     color: #757575;
-}
-.element-filter {
-    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
 }
