@@ -5,7 +5,7 @@
 /* белый #FFFFFF */
 /* синий #2196F3 */
 /* основной фон #E5E5E5 */
-/* фон синий заказать услугу shadow 15% rgba(0, 0, 0, 0.15)*/
+/* фон синий заказать услугу shadow 15% rgba(0, 0, 0, 0.15) */
 /* фон наша команда серый #F5F4FA */
 /* портфолио фильтр фон синий с прозрачностью rgba(0, 0, 0, 0.08) */
 /* портфолио фильтр фон серый  #F5F4FA */
@@ -22,18 +22,21 @@ body {
 ul {
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
 /* Логотип */
+
+
 .logoweb {
     color:#2196F3 ;
     font-family:'Raleway';  
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
 }
 .logostudio {
     color: #212121;
     font-family:'Raleway';
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     }
@@ -42,126 +45,137 @@ ul {
 .logostudiofooter {
     color: #FFFFFF ;
     font-family:'Raleway';
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     }
 
 
+
 /* Стилизация NAV */
-.site-nav a {
+
+.site-nav .link {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
 }
-.site-nav a:focus,
-.site-nav a:hover {
+.site-nav .link:focus,
+.site-nav .link:hover {
     color: #2196F3;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
 }
-
-.auth-nav a {
+.site-nav .link-current {
+    color: #2196F3;
+}
+.auth-nav .link {
     color: #212121 ;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
 }
-.auth-nav a:focus,
-.auth-nav a:hover {
+.auth-nav .link:focus,
+.auth-nav .link:hover {
     color: #2196F3;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
 }
-.service {
+/* Стилизация HERO */
+.hero {
+    background-color: #2F303A;
     color: #FFFFFF;
-    background: #2196F3;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+.hero-title {
+text-align: center;
+}
+.hero-button {
+    color: #FFFFFF;
+    background-color: #2196F3;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     cursor: pointer;
 }
-.service:focus,
-.service:hover {
+.hero-button:focus,
+.hero-button:hover {
     background: #F5F4FA;
     color: #212121;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.9;   
 }
 
-#link-current {
-    color:#2196F3;
-    
-}
-/* Футер */
-.footer {
-    background-color: #2F303A;
-}
-.address-footer a {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
-    line-height: 1.7;
-    font-style: normal;
-    }
-}
-.address-footer a:focus,
-.address-footer a:hover {
-    color: #2196F3;
-    font-size: 14px;
-    line-height: 1.7;
-    font-style: normal;
-    }
-}
-
-/* Index.HTML !!!!! - исправить на белый после фона*/
-.hero {
-    color: #FFFFFF;
-    background-color: #2F303A;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-}
 .our-priorities {
     color: #212121;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
 }
+
 .priorities-text {
     color: #757575;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
+
 .What-we-do {
     color: #212121;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
 }
+
 .our-team {
     color: #212121;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    text-align: center;
 }
+
 .team-name {
     color: #212121;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-}
-.team-expert {
-    color: #757575;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
+    text-align: center;
 }
 
+.team-expert {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* Футер */
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-сontact a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+    text-decoration: none;
+}
+.address a {
+    color: #FFFFFF;
+}
+
+.footer-сontact .link:focus,
+.footer-сontact .link:hover {
+    color: #2196F3;
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+}
 /* Портфолио */
 
 .filter-button {
@@ -171,7 +185,9 @@ ul {
     background: #F5F4FA;
     color: #212121;
     cursor: pointer;
+    border-radius: 4px;
 }
+
 .filter-button:focus,
 .filter-button:hover {
     font-weight: 500;
@@ -179,18 +195,23 @@ ul {
     line-height: 1.6;
     background: #2196F3;
     color: #FFFFFF;
+    border-radius: 4px;
 }
-.element-filter {
 
-}
 .project-name {
     color: #212121;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
+
 .filter-name {
     color: #757575;
     font-size: 16px;
     line-height: 1.9;
 }
+
+
+
+
+
