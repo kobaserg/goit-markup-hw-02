@@ -8,8 +8,6 @@
     --header-cl-hover: #2196F3;
 }
 
-/* основной цвет bgc серый  #F5F4FA */
-
 body {
     color: var(--main-text-cl);
     background-color:#FFFFFF ;
@@ -37,7 +35,6 @@ a {
     margin: -1px;
 }
 /* Логотип */
-
 
 .logoweb {
     color:#2196F3 ;
