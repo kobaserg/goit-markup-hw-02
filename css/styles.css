@@ -96,13 +96,15 @@ body {
 .hero {
     background-color: #2F303A;
     color: #FFFFFF; 
-    font-size: 44px;
-    line-height: 60px;
+    
 }
 .hero-title {
-text-align: center;
-font-weight: 900;
-line-height: 1.36;
+    font-weight: 900;
+    line-height: 1.36;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .hero-button {
     color: #FFFFFF;
