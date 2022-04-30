@@ -79,7 +79,7 @@ body {
     color: var(--header-cl-hover);
 }
 .auth-nav .link {
-    color: var(--header-cl) ;
+    color: var(--main-text-cl) ;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -102,6 +102,7 @@ body {
 .hero-title {
 text-align: center;
 font-weight: 900;
+line-height: 1.36;
 }
 .hero-button {
     color: #FFFFFF;
@@ -187,6 +188,7 @@ font-weight: 900;
 /* Портфолио */
 
 .filter-button {
+    font-family: 'Roboto',sans-serif;;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -194,6 +196,7 @@ font-weight: 900;
     color: #212121;
     cursor: pointer;
     border-radius: 4px;
+
 }
 
 .filter-button:focus,
