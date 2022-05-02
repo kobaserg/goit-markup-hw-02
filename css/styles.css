@@ -38,6 +38,16 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
+/* сброс всех margin c тегов Р*/
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* сброс всех margin с тегов Н2 */
+/*h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}*/
 /* Логотип */
 
 .page-header {
@@ -47,7 +57,7 @@ body {
     background-color: powderblue;
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     outline: 2px solid tomato;
 }
 .link {
@@ -56,6 +66,8 @@ body {
 
 .list-decor {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .logoweb {
     color:#2196F3 ;
@@ -114,8 +126,14 @@ body {
     line-height: 1.15;
 }
 /* Стилизация HERO */
+/*Отступы контента во всех секциях*/
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .hero {
     background-color: #2F303A;
+    text-align: center;
 
     
 }
@@ -125,9 +143,11 @@ body {
     font-weight: 900;
     line-height: 1.36;
     font-size: 44px;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    
 }
 .hero-button {
     color: #FFFFFF;
@@ -140,10 +160,11 @@ body {
     border-radius: 4px;
     width: 200px;
     height: 50px;
+    display: inline-block;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     border-width: 0;
+    padding: 0;
 }
 .hero-button:focus,
 .hero-button:hover {
@@ -160,14 +181,20 @@ body {
     font-size: 14px;
     line-height: 1.15;
     text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px; /*проверить по нижнему контейнеру*/
 }
 
 .priorities-text {
     font-size: 14px;
     line-height: 1.17;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .What-we-do {
+    margin-top: 0;
+    margin-bottom: 0;
     color: #212121;
     font-weight: 700;
     font-size: 36px;
@@ -235,7 +262,7 @@ body {
     cursor: pointer;
     border-radius: 4px;
     padding: 6px 22px;
-    border-width: 1px;
+    border-width: 0px;
     /*убрать на финише тольщину border*/
 
 }
@@ -251,6 +278,8 @@ body {
 }
 
 .project-name {
+    margin-top: 0;
+    margin-bottom: 0;
     color: #212121;
     font-weight: 700;
     font-size: 18px;
@@ -260,6 +289,10 @@ body {
 .filter-name {
     font-size: 16px;
     line-height: 1.9;
+}
+
+.filter-box {
+    margin-bottom: 34px;
 }
 
 
